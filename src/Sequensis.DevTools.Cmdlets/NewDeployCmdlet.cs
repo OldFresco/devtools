@@ -10,7 +10,7 @@ namespace Sequensis.DevTools.Cmdlets
             ValueFromPipelineByPropertyName = true,
             ValueFromPipeline = true,
             Position = 0,
-            HelpMessage = "Name to get salutation for."
+            HelpMessage = "Deploy stuff."
             )]
         [Alias("Person", "FirstName")]
         public string[] ComponentCollection { get; set; }
